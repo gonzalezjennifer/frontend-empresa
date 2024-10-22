@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <login-form />
-  </div>
+  <signup-form />
 </template>
 
 <script>
-import loginForm from '~/components/ui/loginForm.vue'
+import signupForm from '~/components/ui/signupForm.vue'
 export default {
   components: {
-    loginForm
+    signupForm
   },
   auth: false,
   layout: 'login'
